@@ -1,5 +1,9 @@
 # README
 
+* Oliver Hale S3781403
+* Rafay KHOKHAR S3650726 
+* Currently working towards PASS
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
