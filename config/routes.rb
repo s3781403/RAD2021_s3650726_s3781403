@@ -1,10 +1,11 @@
 Rails.application.routes.draw do
   
-  root 'static_pages#home'
+  root 'pages#home'
   
-  get 'static_pages/home'
-  get 'static_pages/about'
-  get 'static_pages/newsletter'
-  get 'static_pages/collections'
+  get '/home', to: 'pages#home'  
+  get '/newsletter', to: 'pages#newsletter'
+  get '/collections', to: 'pages#collections'
+  
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
