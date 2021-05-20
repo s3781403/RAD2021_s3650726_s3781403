@@ -3,6 +3,27 @@
 @import "bootstrap";
 
 
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0 ,0, 4),
+    rgba(148, 48, 48, .2),rgba(167, 67, 67, .4)
+    ),
+    url(images/bg.jpg) center no-repeat;
+    background-size: cover;
+    
+}
+
+
+
 * {
     box-sizing: border-box;
 }
