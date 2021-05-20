@@ -13,6 +13,15 @@
 .container{
     margin-top: 10%;
 }
+
+
+.imgpop{
+    postion: relative;
+    width: 148px;
+    height: auto;
+    
+}
+
 .card{
     position: relative;
     overflow: hidden;
@@ -106,13 +115,13 @@
 
 
 .image__title {
-    font-size: 2em;
+    font-size: 1cm;
     font-weight: bold;
 }
 
 
 .image__description {
-    font-size: 1.20cm;
+    font-size: 0.5cm;
     margin-top: 0.20;
 }
 
