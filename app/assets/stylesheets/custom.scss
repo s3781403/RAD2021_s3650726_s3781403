@@ -7,8 +7,35 @@
     box-sizing: border-box;
 }
 
-nav {
-    font-size: large;
+//For the Photo on home page 
+.container{
+    margin-top: 10%;
+}
+
+
+.imgpop{
+    position: relative;
+    width: 148px;
+    height: auto;
+    
+}
+
+.card{
+    position: relative;
+    overflow: hidden;
+}
+.card:before{
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 120%;
+    background: rgba(235,53,131,0.7);
+    top: -50%;
+    left: -100%;
+    z-index: 1;
+    transform: rotate(25deg);
+    transform-origin: center top 0;
+    transition: .5s;
 }
 
 body {
