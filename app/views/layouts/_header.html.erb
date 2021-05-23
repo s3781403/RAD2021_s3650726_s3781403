@@ -1,47 +1,106 @@
 <header>
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
     
+    <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="main.js"></script>
+</head>
 
-<ul class="navbar-nav navbar-left">
-    
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-        <span class="navbar-toggler-icon">
-    </button>
-    
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class"nav-item active">
-                 <a class="nav-link" href="#">Men</a>
-            </li>
-             <li class"nav-item">
-                 <a class="nav-link" href="#">Women</a>
-            </li>
-             <li class"nav-item">
-                 <a class="nav-link" href="#">Kids</a>
-                  
-            <li class"nav-item active">
-                 <a class="nav-link" href="#">New-Ins</a>
-            </li>
-        </ul>
-    </div>
-
-   
-    </a>
-    
-</ul>
 
 <div class="navbar-header logo-header">
     <a><%=yield(:page)%></a>
 </div>
 
-<ul class ="navbar-nav navbar-right">
-    <li><a><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
-    <li><a><span class="glyphicon glyphicon-search"></span></a></li>
-</ul>
-</nav>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <a href="#" class="navbar-breand">Home .navbar-brand center</a> 
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+        </button>
+        
+        <ul class="navbar-nav navbaar-right">
+        <button><li><span class="glyphicon glyphicon-search" aria-hidden="true"></li></span></button>
+        <button><li><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></li></span></button>
+        </ul>
+        
+        <div class="collapse navbar-collapse" id="collapse_target">
+        
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class ="nav-link" href="#">Mens</a>
+            </li>
+              <li class="nav-item">
+                <a class ="nav-link" href="#">Womens</a>
+            </li>
+              <li class="nav-item">
+                <a class ="nav-link" href="#">Kids</a>
+            </li>
+              <li class="nav-item">
+                <a class ="nav-link" href="#">New-Ins</a>
+            </li>
+        </ul>
+        </div>
+          </div>
+        </div>
+        
+    </nav>
+    
+    <style>
+        .body {
+            margin: 30px;
+    }
+    
+        .my-container {
+            border: 1px solid white;
+        }
+        
+        .my-row {
+            border: 3px solid red;
+        }
+        
+        .my-col {
+            border: 3px blue;
+        }
+    </style>
 
 
-<script src="js/jquery-1.11.2.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+
+
+<body>   
+<div class="container my-container">
+    <div class="row my-row">
+        <div class="col my-col">
+                 Row 1 col 1 
+        </div>
+        <div class="col my-col">
+                 Row 1 col 2 
+        </div>
+      <div class="col my-row">
+                 Row 2 col 1 
+        </div>
+    </div>
+</div>
+</body>
+    
+    
+    
+    
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    
+
+</body>
+
+
 
 </header>
