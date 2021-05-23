@@ -8,6 +8,12 @@
     padding: 0;
 }
 
+<<<<<<< Updated upstream
+=======
+nav {
+    font-size: large;
+}
+>>>>>>> Stashed changes
 //For the Photo on home page 
 
 .container{
@@ -16,7 +22,18 @@
 
 //header 
 
+<<<<<<< HEAD
 .header {
+=======
+.imgpop{
+    position: relative;
+    width: 148px;
+    height: auto;
+    
+}
+
+.card{
+>>>>>>> 51c5bb88709677d69f87b292bdb51fef2a0ecffa
     position: relative;
     float: left;
     top: -35%;
@@ -26,6 +43,7 @@
     text-color: #606060;
 }
 
+<<<<<<< HEAD
 .sub {
     postion: relative;
     float: left;
@@ -37,6 +55,61 @@
 .responsive {
   width: 100%;
   height: auto;
+=======
+
+// Winter Vibes front header 
+
+.image {
+    position: relative;
+    width: 296px;
+}
+
+.image__img {
+    display: block; 
+    width: 100%;
+}
+
+nav {
+    font-size: large;
+} 
+
+.collections-container {
+    background-color: rgb(255, 255, 255);
+    border: thin solid grey;
+    margin: 0.5em;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+
+}
+
+.image__overlay {
+    postion: absolute; 
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    font-family: 'Quicksand', sans-sarif;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+
+
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+
+}
+
+.image__overlay:hover {
+    opacity: 1;
+    
+>>>>>>> 51c5bb88709677d69f87b292bdb51fef2a0ecffa
 }
 
 
@@ -69,5 +142,3 @@ footer ul li {
     float: left;
     margin-left: 15px;
 }
-
-
