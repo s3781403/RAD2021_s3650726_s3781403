@@ -1,0 +1,38 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "bootstrap-sprockets"; 
+
+@import "bootstrap";
+
+// .top-spacing {
+//     margin-top: 30px;
+// }
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(255, 255, 255)
+}
+
+.container-header {
+    display: flex;
+    width: 100%;
+}
+
+// .navbar {
+//     background-color: white;
+// }
+
+#header {
+    padding: 1%;
+    margin: 0.8em;
+}
+
+.spacing {
+
+}
