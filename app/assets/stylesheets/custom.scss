@@ -10,7 +10,7 @@
 
 
 nav {
-//     font-size: large;
+    font-size: large;
 }
 
 //For the Photo on home page 
@@ -74,6 +74,8 @@ nav {
 
 nav {
     font-size: large;
+    background-color: #868686;
+    color:rgb(68, 68, 68)
 } 
 
 .collections-container {
@@ -83,6 +85,14 @@ nav {
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 50%;
 
+}
+
+button {
+    background-color: #999999; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  
 }
 
 .image__overlay {
