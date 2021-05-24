@@ -3,16 +3,115 @@
 @import "bootstrap";
 
 
-* {
-    box-sizing: border-box;
+*{
+    margin: 0;
+    padding: 0;
 }
 
+
 nav {
-    font-size: large;
+//     font-size: large;
+}
+//For the Photo on home page 
+
+.container{
+    margin-top: 10%;
+}
+
+//header 
+
+
+.header {
+=======
+.imgpop{
+    position: relative;
+    width: 148px;
+    height: auto;
+    
+}
+=======
+
 //For the Photo on home page 
 .container{
     margin-top: 10%;
 }
+
+
+.card{
+    position: relative;
+    float: left;
+    top: -35%;
+    font-size: 25px;
+    ///text-shadow: 2px 2px 8px #303030;
+    text-shadow: 2px 2px #787878;
+    text-color: #606060;
+}
+
+.sub {
+    postion: relative;
+    float: left;
+    text-shadow: 2px 2px #787878;
+    text-color: #606060;
+    font-size: 11px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+
+
+// Winter Vibes front header 
+
+.image {
+    position: relative;
+    width: 296px;
+}
+
+.image__img {
+    display: block; 
+    width: 100%;
+}
+
+nav {
+    font-size: large;
+} 
+
+.collections-container {
+    background-color: rgb(255, 255, 255);
+    border: thin solid grey;
+    margin: 0.5em;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+
+}
+
+.image__overlay {
+    postion: absolute; 
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    font-family: 'Quicksand', sans-sarif;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+
+
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+
+}
+
+.image__overlay:hover {
+    opacity: 1;
+    
 
 
 .imgpop{
@@ -60,6 +159,7 @@ body {
     height:200px;
     width: 50%;
     padding: 1em;
+
 }
 
 #collections-kids {
@@ -91,6 +191,9 @@ body {
 font-size: 6em;   
 }
 
+
+
+
 //Footer
 
 footer {
@@ -116,8 +219,4 @@ footer ul {
 footer ul li {
     float: left;
     margin-left: 15px;
-}
-
-.footer-mobile {
-
 }
