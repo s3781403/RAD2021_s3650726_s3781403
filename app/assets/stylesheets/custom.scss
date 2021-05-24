@@ -12,6 +12,7 @@
 nav {
 //     font-size: large;
 }
+
 //For the Photo on home page 
 
 .container{
@@ -22,14 +23,13 @@ nav {
 
 
 .header {
-=======
+}
 .imgpop{
     position: relative;
     width: 148px;
     height: auto;
     
 }
-=======
 
 //For the Photo on home page 
 .container{
@@ -37,28 +37,28 @@ nav {
 }
 
 
-.card{
+.card {
     position: relative;
     float: left;
     top: -35%;
     font-size: 25px;
     ///text-shadow: 2px 2px 8px #303030;
     text-shadow: 2px 2px #787878;
-    text-color: #606060;
+    color: #606060;
 }
 
 .sub {
-    postion: relative;
+    position: relative;
     float: left;
     text-shadow: 2px 2px #787878;
-    text-color: #606060;
+    color: #606060;
     font-size: 11px;
 }
 
 .responsive {
   width: 100%;
   height: auto;
-
+}
 
 // Winter Vibes front header 
 
@@ -86,7 +86,7 @@ nav {
 }
 
 .image__overlay {
-    postion: absolute; 
+    position: absolute; 
     top: 50%;
     left: 50%;
     width: 100%;
@@ -111,7 +111,7 @@ nav {
 
 .image__overlay:hover {
     opacity: 1;
-    
+}    
 
 
 .imgpop{
@@ -125,6 +125,7 @@ nav {
     position: relative;
     overflow: hidden;
 }
+
 .card:before{
     position: absolute;
     content: '';
@@ -211,11 +212,13 @@ footer a:hover {
 }
 footer small {
     float: left;
+
 }
 footer ul {
     float: right;
     list-style: none;
 }
+
 footer ul li {
     float: left;
     margin-left: 15px;
