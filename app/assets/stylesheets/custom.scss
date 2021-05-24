@@ -6,22 +6,30 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
 nav {
     font-size: large;
+    color: rgb(255,255,255);
 }
 
 //For the Photo on home page 
+.controls-top {
+    margin-top: 5em;
+}
 
 .container{
     margin-top: 10%;
+    font-size: 2em;
+}
+
+.rounded {
+    width: 100%;
 }
 
 //header 
-
-
 .header {
 }
 .imgpop{
@@ -31,26 +39,21 @@ nav {
     
 }
 
-//For the Photo on home page 
-.container{
-    margin-top: 10%;
-}
-
 
 .card {
     position: relative;
     float: left;
     top: -35%;
     font-size: 25px;
-    ///text-shadow: 2px 2px 8px #303030;
-    text-shadow: 2px 2px #787878;
+   
+    text-shadow: 1.2px 1.2px #787878;
     color: #606060;
 }
 
 .sub {
     position: relative;
     float: left;
-    text-shadow: 2px 2px #787878;
+    text-shadow: 1.2px 1.2px #787878;
     color: #606060;
     font-size: 11px;
 }
@@ -61,7 +64,6 @@ nav {
 }
 
 // Winter Vibes front header 
-
 .image {
     position: relative;
     width: 296px;
@@ -87,9 +89,16 @@ nav {
 
 }
 
+.flexnav {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-carousel {}
+
 button {
-    background-color: #999999; /* Green */
-  border: none;
+  background-color: #999999; /* Green */
+  border: 2px solid gray;
   color: white;
   padding: 8px 16px;
   
@@ -150,11 +159,15 @@ button {
     transition: .5s;
 }
 
+.navbar-header .logo-header a {
+    color: white;
+}
 
 body {
     background-color: rgb(240, 240, 240);
 }
 
+//Collections section
 #see-all {
    float:right;
    font-size: large; 
@@ -184,6 +197,7 @@ body {
     float: right;
     width: 47%;
     padding: 1em;
+    margin-left: 2px;
 }
 
 #collect-cont {
