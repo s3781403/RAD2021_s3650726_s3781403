@@ -8,12 +8,10 @@
     padding: 0;
 }
 
-<<<<<<< Updated upstream
-=======
+
 nav {
-    font-size: large;
+//     font-size: large;
 }
->>>>>>> Stashed changes
 //For the Photo on home page 
 
 .container{
@@ -22,7 +20,7 @@ nav {
 
 //header 
 
-<<<<<<< HEAD
+
 .header {
 =======
 .imgpop{
@@ -31,9 +29,57 @@ nav {
     height: auto;
     
 }
+=======
+
+//For the Photo on home page 
+.container{
+    margin-top: 10%;
+}
+
 
 .card{
->>>>>>> 
+@import "bootstrap-sprockets"; 
+
+@import "bootstrap";
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+//     font-size: large;
+}
+//For the Photo on home page 
+
+.container{
+    margin-top: 10%;
+}
+
+//header 
+
+
+.header {
+=======
+.imgpop{
+    position: relative;
+    width: 148px;
+    height: auto;
+    
+}
+=======
+
+//For the Photo on home page 
+.container{
+    margin-top: 10%;
+}
+
+
+.card{
+
+
     position: relative;
     float: left;
     top: -35%;
@@ -43,7 +89,6 @@ nav {
     text-color: #606060;
 }
 
-<<<<<<< HEAD
 .sub {
     postion: relative;
     float: left;
@@ -55,7 +100,7 @@ nav {
 .responsive {
   width: 100%;
   height: auto;
-=======
+
 
 // Winter Vibes front header 
 
@@ -109,9 +154,84 @@ nav {
 .image__overlay:hover {
     opacity: 1;
     
->>>>>>> 51c5bb88709677d69f87b292bdb51fef2a0ecffa
+
+
+.imgpop{
+    position: relative;
+    width: 148px;
+    height: auto;
+    
 }
 
+.card{
+    position: relative;
+    overflow: hidden;
+}
+.card:before{
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 120%;
+    background: rgba(235,53,131,0.7);
+    top: -50%;
+    left: -100%;
+    z-index: 1;
+    transform: rotate(25deg);
+    transform-origin: center top 0;
+    transition: .5s;
+}
+
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+#see-all {
+   float:right;
+   font-size: large; 
+}
+
+#collections-women {
+    height: 250px;
+    width: 99.2%;
+    padding: 1em;
+}
+
+#collections-men {
+    height:200px;
+    width: 50%;
+    padding: 1em;
+
+}
+
+#collections-kids {
+    height:200px;
+    width: 50%;
+    padding: 1em;
+}
+
+#collections-newins {
+    height:400px;
+    float: right;
+    width: 47%;
+    padding: 1em;
+}
+
+#collect-cont {
+    border: thick solid rgb(133, 133, 133);
+    background-color: rgb(182, 179, 179);
+}
+
+.collections-container {
+    background-color: rgb(255, 255, 255);
+    border: thin solid grey;
+    margin: 0.5em;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.heading {
+font-size: 6em;   
+}
 
 
 
