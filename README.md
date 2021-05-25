@@ -15,6 +15,8 @@ Things you may want to cover:
 
 * Configuration
 
+* Hosted on https://quiet-sands-43826.herokuapp.com/ 
+
 * Database creation
 
 * Database initialization
